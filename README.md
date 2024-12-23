@@ -1,0 +1,4 @@
+core
+====
+
+Core TLang library
