@@ -1,0 +1,5 @@
+{
+	"name": "core",
+	"description": "Core T library",
+	"type": "library"
+}
