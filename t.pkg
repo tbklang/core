@@ -1,5 +1,6 @@
 {
 	"name": "core",
 	"description": "Core T library",
-	"type": "library"
+	"type": "library",
+	"dependencies": ["tshell"]
 }
