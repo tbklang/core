@@ -12,7 +12,7 @@ void open(ubyte* filePath)
 	
 }
 
-void close(uint8 fd)
+void close(ubyte fd)
 {
 	
 }
