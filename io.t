@@ -1,5 +1,7 @@
 module io;
 
+import cbinc.fnctl;
+
 size_t testFunction()
 {
 	int i = 0;
