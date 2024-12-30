@@ -2,5 +2,5 @@
 	"name": "core",
 	"description": "Core T library",
 	"type": "library",
-	"dependencies": ["cbind"]
+	"dependencies": ["cbind", "tshell"]
 }
