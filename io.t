@@ -11,7 +11,7 @@ size_t testFunction()
 
 void open(ubyte* filePath)
 {
-	
+	open(filePath, 1, 1);
 }
 
 void close(ubyte fd)
