@@ -1,6 +1,6 @@
 module io;
 
-import cbinc.fnctl;
+import cbind.fnctl;
 
 size_t testFunction()
 {
@@ -11,7 +11,7 @@ size_t testFunction()
 
 void open(ubyte* filePath)
 {
-	open(filePath, 1, 1);
+	fnctl.open(filePath, 1, 1);
 }
 
 void close(ubyte fd)
