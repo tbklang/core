@@ -9,12 +9,12 @@ size_t testFunction()
 	return i;
 }
 
-void open(ubyte* filePath)
+void v_open(ubyte* filePath)
 {
-	fnctl.bruh();
+	int res = fnctl.open(filePath, 0, 0);
 }
 
-void close(ubyte fd)
+void v_close(ubyte fd)
 {
 	
 }
