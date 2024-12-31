@@ -11,7 +11,7 @@ size_t testFunction()
 
 void open(ubyte* filePath)
 {
-	fnctl.test(2);
+	fnctl.bruh(2);
 }
 
 void close(ubyte fd)
