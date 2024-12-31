@@ -17,7 +17,7 @@ int v_open(ubyte* filePath)
 
 	if(res < 0)
 	{
-		res_err = errno;
+		res_err = fnctl.errno;
 	}
 
 	return res;
