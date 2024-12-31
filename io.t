@@ -9,9 +9,11 @@ size_t testFunction()
 	return i;
 }
 
-void v_open(ubyte* filePath)
+int v_open(ubyte* filePath)
 {
 	int res = fnctl.open(filePath, 0, 0);
+
+	return res;
 }
 
 void v_close(ubyte fd)
