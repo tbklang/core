@@ -11,7 +11,7 @@ size_t testFunction()
 
 int v_open(ubyte* filePath)
 {
-	int res = fnctl.open(filePath, 0, 0);
+	int res = fnctl.v_open(filePath, 0, 0);
 
 
 	return res;
