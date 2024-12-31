@@ -13,6 +13,8 @@ int v_open(ubyte* filePath)
 {
 	int res = fnctl.open(filePath, 0, 0);
 
+	int j = errno+1;
+
 	return res;
 }
 
