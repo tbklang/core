@@ -23,3 +23,7 @@ void v_close(ubyte fd)
 
 import cbind.mem;
 
+void test()
+{
+	mem.malloc(2);
+}
