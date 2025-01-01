@@ -21,7 +21,9 @@ void v_close(ubyte fd)
 	
 }
 
+import cbind.mem;
+
 void test()
 {
-	fnctl.malloc(2);
+	me.malloc(2);
 }
