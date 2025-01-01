@@ -25,5 +25,5 @@ import cbind.mem;
 
 void test()
 {
-	me.malloc(2);
+	mem.malloc(2);
 }
