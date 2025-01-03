@@ -9,9 +9,9 @@ size_t testFunction()
 	return i;
 }
 
-int v_open(ubyte* filePath)
+int v_open(ubyte* filePath, int flags)
 {
-	int res = fnctl.open(filePath, 0, 0);
+	int res = fnctl.open(filePath, flags, 0);
 
 	return res;
 }
