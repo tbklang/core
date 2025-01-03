@@ -5,9 +5,11 @@ ubyte STR_TERM = 0;
 size_t strlen(ubyte* s)
 {
 	size_t c = 0;
-	while((*s) != STR_TERM)
+	ubyte cur = *s;
+	while(cur != STR_TERM)
 	{
-		s = s+1
+		s = s+1;
+		cur = *s;
 		c = c+1;
 	}
 
