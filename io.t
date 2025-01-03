@@ -23,9 +23,11 @@ int v_write(int fd, ubyte* data, size_t cnt)
 	return res;
 }
 
-void v_close(ubyte fd)
+int v_close(int fd)
 {
-	
+	int res = fnctl.close(fd);
+
+	return res;
 }
 
 import cbind.mem;
