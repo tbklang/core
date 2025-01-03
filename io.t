@@ -16,6 +16,13 @@ int v_open(ubyte* filePath)
 	return res;
 }
 
+int v_write(int fd, ubyte* data, size_t cnt)
+{
+	int res = fnctl.write(fd, data, cast(int)cnt);
+
+	return res;
+}
+
 void v_close(ubyte fd)
 {
 	
