@@ -18,7 +18,7 @@ size_t len(ubyte* s)
 
 ssize_t indexof(ubyte* s, ubyte c)
 {
-	for(ssize_t p = 0; p < strlen(s); p=p+1)
+	for(ssize_t p = 0; p < len(s); p=p+1)
 	{
 		ubyte c_cur = *(s+p);
 		if(c_cur == c)
