@@ -2,7 +2,7 @@ module string;
 
 ubyte STR_TERM = 0;
 
-size_t strlen(ubyte* s)
+size_t len(ubyte* s)
 {
 	size_t c = 0;
 	ubyte cur = *s;
